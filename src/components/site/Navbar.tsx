@@ -23,9 +23,7 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-40 transition-smooth ${
-        scrolled ? "bg-surface-darker/90 backdrop-blur-md border-b border-white/5" : "bg-transparent"
-      }`}
+      className="fixed top-0 inset-x-0 z-40 transition-smooth bg-surface-darker/90 backdrop-blur-md border-b border-white/5"
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
         <a href="#" className="flex items-center gap-2 text-on-dark">
