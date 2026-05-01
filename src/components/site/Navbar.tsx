@@ -3,11 +3,11 @@ import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const links = [
-  { href: "#despre", label: "Despre" },
-  { href: "#servicii", label: "Servicii" },
-  { href: "#de-ce-noi", label: "De ce noi" },
-  { href: "#proiecte", label: "Proiecte" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#despre", label: "Despre" },
+  { href: "/#servicii", label: "Servicii" },
+  { href: "/preturi", label: "Prețuri" },
+  { href: "/#proiecte", label: "Proiecte" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export const Navbar = () => {
