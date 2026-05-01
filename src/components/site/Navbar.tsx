@@ -26,7 +26,7 @@ export const Navbar = () => {
       className="fixed top-0 inset-x-0 z-40 transition-smooth bg-surface-darker/90 backdrop-blur-md border-b border-white/5"
     >
       <div className="container flex items-center justify-between h-16 md:h-20">
-        <a href="#" className="flex items-center gap-2 text-on-dark">
+        <a href="#" className="flex items-center gap-2 text-white">
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-md bg-gradient-accent font-display font-bold text-accent-foreground">
             C
           </span>
@@ -37,14 +37,14 @@ export const Navbar = () => {
 
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm font-medium text-on-dark/80 hover:text-accent transition-smooth">
+            <a key={l.href} href={l.href} className="text-sm font-medium text-white hover:text-accent transition-smooth">
               {l.label}
             </a>
           ))}
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
-          <a href="tel:+40767929044" className="flex items-center gap-2 text-sm text-on-dark/90 hover:text-accent transition-smooth">
+          <a href="tel:+40767929044" className="flex items-center gap-2 text-sm text-white hover:text-accent transition-smooth">
             <Phone className="h-4 w-4" />
             +40 767 929 044
           </a>
@@ -53,7 +53,7 @@ export const Navbar = () => {
           </Button>
         </div>
 
-        <button className="md:hidden text-on-dark" onClick={() => setOpen(!open)} aria-label="Meniu">
+        <button className="md:hidden text-white" onClick={() => setOpen(!open)} aria-label="Meniu">
           {open ? <X /> : <Menu />}
         </button>
       </div>
@@ -66,7 +66,7 @@ export const Navbar = () => {
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="text-on-dark/90 py-2 border-b border-white/5"
+                className="text-white hover:text-accent py-2 border-b border-white/5"
               >
                 {l.label}
               </a>
