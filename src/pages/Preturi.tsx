@@ -206,6 +206,9 @@ const Preturi = () => {
           </div>
         </section>
 
+        {/* Calculator */}
+        <PriceCalculator categories={categories} />
+
         {/* CTA */}
         <section className="py-20 bg-surface-darker text-on-dark">
           <div className="container text-center max-w-2xl mx-auto">
