@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { WhatsappButton } from "@/components/site/WhatsappButton";
+import { PriceCalculator } from "@/components/site/PriceCalculator";
 import { Button } from "@/components/ui/button";
 import {
   Shovel,
@@ -204,6 +205,9 @@ const Preturi = () => {
             </div>
           </div>
         </section>
+
+        {/* Calculator */}
+        <PriceCalculator categories={categories} />
 
         {/* CTA */}
         <section className="py-20 bg-surface-darker text-on-dark">
