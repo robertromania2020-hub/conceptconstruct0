@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { WhatsappButton } from "@/components/site/WhatsappButton";
+import { PriceCalculator } from "@/components/site/PriceCalculator";
 import { Button } from "@/components/ui/button";
 import {
   Shovel,
